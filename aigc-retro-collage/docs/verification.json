@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-09-13",
+  "title": "复古潮流拼贴音乐短片",
+  "source": "User-provided finished MP4",
+  "video": "video/retro-collage-music-short.mp4",
+  "file_bytes": 34579130,
+  "sha256": "15e94d49b6faaabb39b7e7e895aa42d40714ab406cfd970e7bf586c759705910",
+  "original_file_sha256_matches": true,
+  "original_file_preserved": true,
+  "duration_seconds": 15.083344,
+  "video_stream": {
+    "codec": "h264",
+    "width": 2560,
+    "height": 1440,
+    "frame_rate": "24/1",
+    "frame_count": 362
+  },
+  "audio_stream": {
+    "codec": "aac",
+    "sample_rate": 32000,
+    "channels": 2
+  },
+  "embedded_aigc_label": {
+    "label": "1",
+    "content_producer": "MiniMax",
+    "content_propagator": "MiniMax",
+    "note": "Read from original file metadata; no independent cryptographic verification or inference about model version."
+  },
+  "full_video_and_audio_decode": {
+    "exit_code": 0,
+    "error_output": "",
+    "method": "ffmpeg -loglevel error -xerror -i INPUT -map 0:v:0 -map 0:a:0 -f null -"
+  },
+  "visual_review": "Contact sheet sampled across the film; selected stills at 0.5, 6.0 and 14.5 seconds.",
+  "screenshots": [
+    {
+      "path": "screenshots/01-collage-opening.jpg",
+      "source_time_seconds": 0.5,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "screenshots/02-fashion-closeup.jpg",
+      "source_time_seconds": 6.0,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "screenshots/03-group-finale.jpg",
+      "source_time_seconds": 14.5,
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "included_generation_source": false,
+  "toolchain_information": "MiniMax marker only; no generation prompts, model version, music source or editing project supplied."
+}

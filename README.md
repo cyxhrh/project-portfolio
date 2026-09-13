@@ -1,14 +1,15 @@
 # CY · 项目作品集
 
-我通过 AI Agent 与 Vibe Coding 开展项目实践，关注信息自动化、知识整理、网页交互与 AI 视频制作。这份作品集收录五个项目的源码、界面截图、运行方式和验证记录。
+我通过 AI Agent 与 Vibe Coding 开展项目实践，关注信息自动化、知识整理、网页交互与 AI 视频制作。这份作品集收录六个项目的源码与作品材料，包含界面截图、视频成片、运行说明和验证记录。
 
-| 项目 | 主要内容 | 代码与说明 |
+| 项目 | 主要内容 | 项目入口 |
 | --- | --- | --- |
 | **微光标本馆** | 灵感制卡、图片导出、本机收藏与月度回看 | [在线体验](https://glimmer-specimen-museum.vercel.app/) · [项目与源码](glimmer-specimen-museum/README.md) |
 | **商机罗盘 Venture Compass** | 比赛网页：3D 全球市场地球、想法输入、转场动画与产品概念展示 | [查看项目](venture-compass/README.md) · [源码](venture-compass/source/) |
 | **Video Knowledge Mapper** | 视频内容获取、转写、结构化笔记、思维导图与复习卡片 | [查看项目](video-knowledge-mapper/README.md) · [源码](video-knowledge-mapper/source/) |
 | **AI Intel Collector** | 多来源 AI 信息采集、正文提取、摘要、日报与桌面控制台 | [查看项目](ai-intel-collector/README.md) · [源码](ai-intel-collector/source/) |
 | **企业数字人视频** | 53 秒成片、技术路径、创作思路、生成任务脚本与合成工程 | [查看项目](digital-human-video/README.md) · [下载成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/digital-human-video/video/enterprise-digital-human-v3.mp4) |
+| **复古潮流拼贴音乐短片** | 15 秒 AIGC 成片、复古时尚与拼贴视觉、3 张实帧 | [查看作品](aigc-retro-collage/README.md) · [下载成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/aigc-retro-collage/video/retro-collage-music-short.mp4) |
 
 ## 01 · 微光标本馆
 
@@ -86,6 +87,16 @@
 
 [下载成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/digital-human-video/video/enterprise-digital-human-v3.mp4) · [项目介绍](digital-human-video/README.md) · [技术路径](digital-human-video/docs/technical-route.md) · [创作思路](digital-human-video/docs/creative-decisions.md) · [工程代码](digital-human-video/source/README.md)
 
-## 关于这份源码
+## 06 · 复古潮流拼贴音乐短片
 
-这是为作品展示整理的源码快照。各项目分别提供依赖文件和运行说明；需要外部模型或服务的功能须自行配置。密钥、登录信息、私有飞书目标、个人视频与笔记不包含在内。截图、自动化测试和历史报告各自标明验证范围。数字人原始人像、声音及完整素材库未包含；展示成片保留原内容，合成源码中的联系信息使用占位符。
+我的 AIGC 视觉创作作品。将复古潮流服装、人物舞蹈、撕纸拼贴与大幅黑白字体组合成约 15 秒的横屏音乐短片，画面在杂志版式与立体场景之间切换。
+
+![复古潮流拼贴音乐短片实帧](aigc-retro-collage/screenshots/03-group-finale.jpg)
+
+**成果：** 2560 × 1440、24 fps 原始成片，附 3 张实帧与文件核验记录。原文件带有 MiniMax 的 AIGC 标识；本项收录成片展示，未附生成工程或源码。
+
+[作品介绍与预览帧](aigc-retro-collage/README.md) · [下载完整成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/aigc-retro-collage/video/retro-collage-music-short.mp4)
+
+## 关于这份作品集
+
+这是为作品展示整理的源码快照与视频成果。含源码的项目分别提供依赖文件和运行说明；需要外部模型或服务的功能须自行配置。密钥、登录信息、私有飞书目标、个人视频与笔记不包含在内。截图、自动化测试和历史报告各自标明验证范围。数字人原始人像、声音及完整素材库未包含；展示成片保留原内容，合成源码中的联系信息使用占位符。
