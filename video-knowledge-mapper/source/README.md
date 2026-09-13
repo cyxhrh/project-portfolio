@@ -230,13 +230,13 @@ lark-cli base +record-upsert --base-token REPLACE_WITH_YOUR_VALUE --table-id REP
 如果飞书同步失败，请先确认：
 
 ```powershell
-& 'D:\AI\codex\pnpm\global\v11\1a110-19eea1f7f55\node_modules\@larksuite\cli\bin\lark-cli.exe' auth status
+lark-cli auth status
 ```
 
 必要时重新登录：
 
 ```powershell
-& 'D:\AI\codex\pnpm\global\v11\1a110-19eea1f7f55\node_modules\@larksuite\cli\bin\lark-cli.exe' auth login --recommend
+lark-cli auth login --recommend
 ```
 
 ## 常见问题
