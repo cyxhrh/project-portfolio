@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-09-13",
+  "live_url": "https://glimmer-specimen-museum.vercel.app/",
+  "login_required": false,
+  "page_title": "微光标本馆",
+  "js_asset": "/assets/index-Dmnrgs1m.js",
+  "css_asset": "/assets/index-DOxeMM3_.css",
+  "source_commit": "3fe9d13b2f9c607a52ca1236ceb46db564bc8245",
+  "source_files": 47,
+  "source_bytes": 29735875,
+  "browser_checks": [
+    "input and mood selection",
+    "generate a card",
+    "save to gallery",
+    "reload and retain card",
+    "monthly gallery",
+    "detail view",
+    "return with original card focus"
+  ],
+  "observed_console_errors": 0,
+  "download_to_disk_tested": false,
+  "mobile_device_tested": false,
+  "tests_rerun_this_session": false,
+  "historical_test_date": "2026-07-22",
+  "historical_test_files": 6,
+  "historical_test_cases": 25,
+  "original_project_modified": false,
+  "redeployed": false,
+  "QA_document_source": "Current project working directory; historical QA document is untracked in source Git."
+}
