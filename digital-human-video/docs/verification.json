@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-09-13",
+  "source": "User-provided MP4",
+  "file_sha256": "b24fb3016c3d461a20d229d72494c9f010dde0eb9e47a4e4fbad3852e7539bf6",
+  "encoded_audio_video_stream_sha256": "ffa69077f9663dbf58ea033dd2b513513ed980cabc8360379672b564380fd623",
+  "same_encoded_streams_as_project_v3": true,
+  "copy_sha256": "b24fb3016c3d461a20d229d72494c9f010dde0eb9e47a4e4fbad3852e7539bf6",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "25/1"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "53.098000",
+      "size": "37058027"
+    }
+  },
+  "decode_check": "ffmpeg full audio/video decode passed with exit code 0",
+  "sampled_frames_seconds": [
+    5,
+    20,
+    35,
+    50
+  ],
+  "project_re_rendered": false,
+  "original_video_contact_card_preserved": true,
+  "supporting_records": [
+    "2026-08-19-数字人视频制作工作经验.md",
+    "数字人谢/07-demo-10s/edit/project.md",
+    "数字人谢/08-production/意瑞广告-企业介绍-V3-能力清单素材版/素材使用清单.md",
+    "数字人谢/08-production/意瑞广告-企业介绍-V3-能力清单素材版/edl.json"
+  ]
+}

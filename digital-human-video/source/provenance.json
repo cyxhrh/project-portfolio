@@ -1,0 +1,83 @@
+{
+  "source_project": "数字人谢",
+  "source_version": "企业介绍 V3 能力清单素材版 (2026-08-18)",
+  "scope": "Original production code excerpts; media omitted; contact information replaced in HTML.",
+  "files": [
+    {
+      "path": "minimax-h3/generate_h3.py",
+      "sha256": "901626a69446c0c04deeeb8b8b1ebd2815499fafb29bbc323613517c28a32761",
+      "change": "Unmodified original script. Credentials come from MINIMAX_API_KEY; output is a required --output parameter, with no hardcoded local path.",
+      "source_project_relative_path": "07-demo-10s/edit/11-demo-团队能力-PIP-v1/minimax-h3/generate_h3.py",
+      "source_sha256": "901626a69446c0c04deeeb8b8b1ebd2815499fafb29bbc323613517c28a32761"
+    },
+    {
+      "path": "composition/index.html",
+      "sha256": "c59e278907bf2829f5ef1d6277c9b8175a100ca70492bfb08f2ea3abc1781f5d",
+      "change": "Replaced one phone number, QR image reference, alt text and QR hint with generic contact placeholders. Original layout, timing and animation retained.",
+      "source_project_relative_path": "08-production/意瑞广告-企业介绍-V3-能力清单素材版/hf/index.html",
+      "source_sha256": "50dabc73d632372381c4cce98f902220505a5c2ea86ab62db12e824703839df8"
+    },
+    {
+      "path": "composition/index.motion.json",
+      "sha256": "f55f7e83aef6099c82e83f8403892d5dde68ecd92556ea7892469f0ca5e9b655",
+      "change": "Unmodified original file.",
+      "source_project_relative_path": "08-production/意瑞广告-企业介绍-V3-能力清单素材版/hf/index.motion.json",
+      "source_sha256": "f55f7e83aef6099c82e83f8403892d5dde68ecd92556ea7892469f0ca5e9b655"
+    },
+    {
+      "path": "composition/hyperframes.json",
+      "sha256": "8c69c17fbc6709e1dae3d9cbf19eebe0f77a4e547f1daf0b1c1f8a927c908661",
+      "change": "Unmodified original file.",
+      "source_project_relative_path": "08-production/意瑞广告-企业介绍-V3-能力清单素材版/hf/hyperframes.json",
+      "source_sha256": "8c69c17fbc6709e1dae3d9cbf19eebe0f77a4e547f1daf0b1c1f8a927c908661"
+    },
+    {
+      "path": "composition/package.json",
+      "sha256": "e3a33cf966896c85a106e1b0bcc3697810891ea1509326229c98cbfe0a64a9e1",
+      "change": "Unmodified original file.",
+      "source_project_relative_path": "08-production/意瑞广告-企业介绍-V3-能力清单素材版/hf/package.json",
+      "source_sha256": "e3a33cf966896c85a106e1b0bcc3697810891ea1509326229c98cbfe0a64a9e1"
+    },
+    {
+      "path": "composition/edl.json",
+      "sha256": "c815b60b20d3d89842434c99b478612584f60f262158b21f3b28aac4ac0a33e5",
+      "change": "Unmodified original timing/subtitle file. No phone number or QR content detected.",
+      "source_project_relative_path": "08-production/意瑞广告-企业介绍-V3-能力清单素材版/edl.json",
+      "source_sha256": "c815b60b20d3d89842434c99b478612584f60f262158b21f3b28aac4ac0a33e5"
+    },
+    {
+      "path": "composition/master.ass",
+      "sha256": "039dbe34c7dffab4c4047f30b4b52bab9cec6cd4c44e87becdb9d6f6e70d30d6",
+      "change": "Unmodified original timing/subtitle file. No phone number or QR content detected.",
+      "source_project_relative_path": "08-production/意瑞广告-企业介绍-V3-能力清单素材版/master.ass",
+      "source_sha256": "039dbe34c7dffab4c4047f30b4b52bab9cec6cd4c44e87becdb9d6f6e70d30d6"
+    },
+    {
+      "path": "composition/assets/contact-placeholder.svg",
+      "sha256": "797be9155723929cdd7aaee72d140f8ba32af0c9fab3ebffd6bb931a85fa98d8",
+      "change": "New generic contact placeholder SVG; contains no real QR code or contact information.",
+      "source_project_relative_path": null
+    },
+    {
+      "path": "composition/assets/README.md",
+      "sha256": "fc152f3e480a615d11b16f021c203182ce3c10c2c29b58f7895b90824bae4942",
+      "change": "Generated documentation; no original asset included.",
+      "source_project_relative_path": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "f2c18f85e50314c66bcacae34f54f3c3199a29c09525bdf6c58daa03ab388551",
+      "change": "Generated documentation; no original asset included.",
+      "source_project_relative_path": null
+    }
+  ],
+  "verification": {
+    "python_ast": "passed",
+    "javascript_node_check": "passed",
+    "json_parse": "passed",
+    "contact_and_absolute_local_path_scan": "passed",
+    "external_api_calls": 0,
+    "render_performed": false,
+    "media_files_copied": 0
+  }
+}

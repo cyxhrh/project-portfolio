@@ -1,12 +1,13 @@
 # CY · 项目作品集
 
-我通过 AI Agent 与 Vibe Coding 开展项目实践，关注信息自动化、知识整理与网页交互。这份作品集收录三个项目的源码、界面截图、运行方式和验证记录。
+我通过 AI Agent 与 Vibe Coding 开展项目实践，关注信息自动化、知识整理、网页交互与 AI 视频制作。这份作品集收录四个项目的源码、界面截图、运行方式和验证记录。
 
 | 项目 | 主要内容 | 代码与说明 |
 | --- | --- | --- |
 | **商机罗盘 Venture Compass** | 比赛网页：3D 全球市场地球、想法输入、转场动画与产品概念展示 | [查看项目](venture-compass/README.md) · [源码](venture-compass/source/) |
 | **Video Knowledge Mapper** | 视频内容获取、转写、结构化笔记、思维导图与复习卡片 | [查看项目](video-knowledge-mapper/README.md) · [源码](video-knowledge-mapper/source/) |
 | **AI Intel Collector** | 多来源 AI 信息采集、正文提取、摘要、日报与桌面控制台 | [查看项目](ai-intel-collector/README.md) · [源码](ai-intel-collector/source/) |
+| **企业数字人视频** | 53 秒成片、技术路径、创作思路、生成任务脚本与合成工程 | [查看项目](digital-human-video/README.md) · [观看成片](digital-human-video/video/enterprise-digital-human-v3.mp4) |
 
 ## 01 · 商机罗盘 Venture Compass
 
@@ -52,6 +53,22 @@
 
 [项目说明与运行方式](ai-intel-collector/README.md) · [采集入口](ai-intel-collector/source/src/collect.js) · [历史执行报告](ai-intel-collector/evidence/execution_report.md)
 
+## 04 · 企业数字人视频制作
+
+围绕企业介绍，把数字人口播、业务辅助画面、信息卡和字幕组织成一条连贯的竖屏视频。我负责内容与镜头规划、工具衔接、动效和字幕组织，以及样片反馈后的迭代。
+
+| 数字人开场 | 业务说明与画中画 | 能力清单动效 |
+| --- | --- | --- |
+| ![数字人开场](digital-human-video/screenshots/01-avatar-introduction.jpg) | ![业务画面](digital-human-video/screenshots/02-business-scene.jpg) | ![能力清单](digital-human-video/screenshots/03-capability-cards.jpg) |
+
+**技术路径：** Codex 规划 → HeyGen 数字人口播 → MiniMax H3 辅助画面 → HyperFrames / GSAP 动效 → FFmpeg 音画与字幕合成。
+
+**核心思路：** 先锁定真实口播时长，先用约 10 秒 Demo 验证，再搭全片粗剪、补素材；人物负责讲述，画面负责解释，准确文字保留为可编辑层。
+
+**成果：** 53.098 秒、1080 × 1920、25 fps 的 V3 成片，附原始任务脚本、脱敏合成工程、字幕、时间线及制作思路。当前是已完成案例和局部脚本衔接，尚未形成一键全自动制作系统。
+
+[观看 / 下载成片](digital-human-video/video/enterprise-digital-human-v3.mp4) · [项目介绍](digital-human-video/README.md) · [技术路径](digital-human-video/docs/technical-route.md) · [创作思路](digital-human-video/docs/creative-decisions.md) · [工程代码](digital-human-video/source/README.md)
+
 ## 关于这份源码
 
-这是为作品展示整理的源码快照。各项目分别提供依赖文件和运行说明；需要外部模型或服务的功能须自行配置。密钥、登录信息、私有飞书目标、个人视频与笔记不包含在内。截图、自动化测试和历史报告各自标明验证范围。
+这是为作品展示整理的源码快照。各项目分别提供依赖文件和运行说明；需要外部模型或服务的功能须自行配置。密钥、登录信息、私有飞书目标、个人视频与笔记不包含在内。截图、自动化测试和历史报告各自标明验证范围。数字人原始人像、声音及完整素材库未包含；展示成片保留原内容，合成源码中的联系信息使用占位符。

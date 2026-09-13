@@ -1,0 +1,13 @@
+{
+  "duration":53.08,
+  "assertions":[
+    {"kind":"appearsBy","selector":"#company-one .company","bySec":1.9},
+    {"kind":"before","a":"#company-one .company","b":"#company-two .company"},
+    {"kind":"before","a":"#company-two .company","b":"#company-three .company"},
+    {"kind":"before","a":"#ability-list .ability-1","b":"#ability-list .ability-2"},
+    {"kind":"before","a":"#ability-list .ability-2","b":"#ability-list .ability-3"},
+    {"kind":"staysInFrame","selector":"#ability-list .ability-1"},
+    {"kind":"staysInFrame","selector":"#ability-list .ability-2"},
+    {"kind":"staysInFrame","selector":"#ability-list .ability-3"}
+  ]
+}

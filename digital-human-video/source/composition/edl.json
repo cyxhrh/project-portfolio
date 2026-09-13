@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "output_duration_s": 53.08,
+  "audio": {"source": "assets/avatar.mp4", "start": 0, "end": 53.08, "cut": "none", "fade_in_s": 0.03, "fade_out_s": 0.03},
+  "visual_beats": [
+    {"start": 0.00, "end": 15.76, "visual": "full_avatar + logo + three company labels + general-manager identity"},
+    {"start": 15.30, "end": 19.75, "source": "assets/01-安防装备检测.mp4", "title": "警用安防装备"},
+    {"start": 19.30, "end": 23.59, "source": "assets/02-标识制作安装.mp4", "title": "广告标识标牌"},
+    {"start": 23.14, "end": 27.93, "source": "assets/03-楼宇翻新维护-慢放.mp4", "title": "办公楼翻新"},
+    {"start": 27.48, "end": 36.38, "source": "assets/05-生产设备-能力段慢放.mp4", "title": "团队与能力清单"},
+    {"start": 35.93, "end": 41.40, "source": "assets/07-企业定制场景-慢放.mp4", "title": "个性化定制服务"},
+    {"start": 41.40, "end": 53.08, "visual": "full_avatar + value statement + contact card"}
+  ],
+  "transition": "business backgrounds cross-dissolve for 0.45 seconds; subtitle burn-in is final video layer"
+}
