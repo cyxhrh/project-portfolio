@@ -4,7 +4,9 @@
 
 ## 成片与画面
 
-[观看 / 下载 53 秒 V3 成片](video/enterprise-digital-human-v3.mp4)
+[下载 53 秒 V3 成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/digital-human-video/video/enterprise-digital-human-v3.mp4)
+
+GitHub 文件页不提供这份大文件的内嵌预览，可通过上方链接下载观看；下方提供成片截图。
 
 视频为本次提供的原文件，未剪辑或重新编码。规格：1080 × 1920、25 fps、H.264 视频 / AAC 音频，时长 53.098 秒。它与原项目“企业介绍 V3 能力清单素材版”的音视频流哈希一致。
 

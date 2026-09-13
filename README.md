@@ -8,7 +8,7 @@
 | **商机罗盘 Venture Compass** | 比赛网页：3D 全球市场地球、想法输入、转场动画与产品概念展示 | [查看项目](venture-compass/README.md) · [源码](venture-compass/source/) |
 | **Video Knowledge Mapper** | 视频内容获取、转写、结构化笔记、思维导图与复习卡片 | [查看项目](video-knowledge-mapper/README.md) · [源码](video-knowledge-mapper/source/) |
 | **AI Intel Collector** | 多来源 AI 信息采集、正文提取、摘要、日报与桌面控制台 | [查看项目](ai-intel-collector/README.md) · [源码](ai-intel-collector/source/) |
-| **企业数字人视频** | 53 秒成片、技术路径、创作思路、生成任务脚本与合成工程 | [查看项目](digital-human-video/README.md) · [观看成片](digital-human-video/video/enterprise-digital-human-v3.mp4) |
+| **企业数字人视频** | 53 秒成片、技术路径、创作思路、生成任务脚本与合成工程 | [查看项目](digital-human-video/README.md) · [下载成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/digital-human-video/video/enterprise-digital-human-v3.mp4) |
 
 ## 01 · 微光标本馆
 
@@ -84,7 +84,7 @@
 
 **成果：** 53.098 秒、1080 × 1920、25 fps 的 V3 成片，附原始任务脚本、脱敏合成工程、字幕、时间线及制作思路。当前是已完成案例和局部脚本衔接，尚未形成一键全自动制作系统。
 
-[观看 / 下载成片](digital-human-video/video/enterprise-digital-human-v3.mp4) · [项目介绍](digital-human-video/README.md) · [技术路径](digital-human-video/docs/technical-route.md) · [创作思路](digital-human-video/docs/creative-decisions.md) · [工程代码](digital-human-video/source/README.md)
+[下载成片（MP4）](https://github.com/cyxhrh/project-portfolio/raw/refs/heads/main/digital-human-video/video/enterprise-digital-human-v3.mp4) · [项目介绍](digital-human-video/README.md) · [技术路径](digital-human-video/docs/technical-route.md) · [创作思路](digital-human-video/docs/creative-decisions.md) · [工程代码](digital-human-video/source/README.md)
 
 ## 关于这份源码
 
