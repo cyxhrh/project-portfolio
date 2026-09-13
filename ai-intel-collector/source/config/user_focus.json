@@ -1,0 +1,19 @@
+{
+  "language": "zh-CN",
+  "timezone": "Asia/Shanghai",
+  "focus_topics": [
+    "AI 一手信息",
+    "官方博客",
+    "官方 changelog",
+    "GitHub releases",
+    "论文源",
+    "开源模型"
+  ],
+  "first_round_exclusions": [
+    "DeepSeek API 接入",
+    "OpenAI API 接入",
+    "飞书集成",
+    "登录系统",
+    "复杂网页后台"
+  ]
+}

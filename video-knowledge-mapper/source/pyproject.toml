@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-knowledge-mapper"
+version = "0.1.0"
+description = "Windows desktop MVP that turns video links or local videos into structured learning notes."
+requires-python = ">=3.10"
+dependencies = [
+  "PySide6",
+  "yt-dlp",
+  "faster-whisper",
+  "openai",
+  "webvtt-py",
+  "srt",
+  "platformdirs",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

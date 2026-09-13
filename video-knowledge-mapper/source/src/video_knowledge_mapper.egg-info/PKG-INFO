@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: video-knowledge-mapper
+Version: 0.1.0
+Summary: Windows desktop MVP that turns video links or local videos into structured learning notes.
+Requires-Python: >=3.10
+Requires-Dist: PySide6
+Requires-Dist: yt-dlp
+Requires-Dist: faster-whisper
+Requires-Dist: openai
+Requires-Dist: webvtt-py
+Requires-Dist: srt
+Requires-Dist: platformdirs

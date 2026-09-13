@@ -1,0 +1,28 @@
+.opening { position: fixed; inset: 0; z-index: 1000; display: grid; place-content: center; background: #000; color: #fff; border: 0; width: 100%; cursor: pointer; overflow: hidden; animation: opening-exit .7s 3s cubic-bezier(.22, .72, .18, 1) forwards; }
+.opening__dot, .opening__line { position: absolute; top: 50%; left: 50%; background: #fff; }
+.opening__dot { width: 10px; height: 10px; border-radius: 50%; transform: translate(-50%, -50%); animation: opening-dot 1.2s ease-out both; }
+.opening__line { width: 258px; height: 2px; animation: opening-line 0.7s 0.5s ease-in-out both; }
+.opening__line--left { transform-origin: right center; }
+.opening__line--right { transform-origin: left center; animation-name: opening-line-right; }
+.opening__wordmark { font: 500 clamp(2rem, 5vw, 5.625rem)/1 'Helvetica Neue', Arial, sans-serif; letter-spacing: -0.02em; opacity: 0; animation: opening-wordmark 0.4s 1.2s ease-out forwards; }
+.opening__message { margin-top: 1.5rem; font: 400 clamp(1rem, 1.5vw, 1.6875rem)/1.5 'Noto Sans SC', 'Microsoft YaHei', sans-serif; letter-spacing: .04em; opacity: 0; animation: opening-message 0.4s 1.6s ease-out forwards; }
+.opening--reduced .opening__dot, .opening--reduced .opening__line { display: none; }
+.opening--reduced .opening__wordmark, .opening--reduced .opening__message { animation: none; opacity: 1; }
+@keyframes opening-dot { to { opacity: 0; } }
+@keyframes opening-line {
+  0% { opacity: 0; transform: translate(-100%, -50%) scaleX(0); }
+  12% { opacity: 1; transform: translate(-100%, -50%) scaleX(.05); }
+  55% { opacity: 1; transform: translate(-100%, -50%) scaleX(1); }
+  86% { opacity: 1; transform: translate(-100%, -50%) scaleX(.08); }
+  100% { opacity: 0; transform: translate(-100%, -50%) scaleX(0); }
+}
+@keyframes opening-line-right {
+  0% { opacity: 0; transform: translate(0, -50%) scaleX(0); }
+  12% { opacity: 1; transform: translate(0, -50%) scaleX(.05); }
+  55% { opacity: 1; transform: translate(0, -50%) scaleX(1); }
+  86% { opacity: 1; transform: translate(0, -50%) scaleX(.08); }
+  100% { opacity: 0; transform: translate(0, -50%) scaleX(0); }
+}
+@keyframes opening-wordmark { to { opacity: 1; } }
+@keyframes opening-message { to { opacity: 1; } }
+@keyframes opening-exit { to { opacity: 0; } }

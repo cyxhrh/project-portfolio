@@ -1,0 +1,62 @@
+[
+  {
+    "id": "model_release",
+    "name": "模型发布",
+    "keywords": ["model", "gpt", "claude", "gemini", "llama", "mistral", "release", "released", "launch"],
+    "default_importance": "high"
+  },
+  {
+    "id": "api_update",
+    "name": "API更新",
+    "keywords": ["api", "sdk", "endpoint", "rate limit", "pricing", "changelog", "developer"],
+    "default_importance": "high"
+  },
+  {
+    "id": "agent",
+    "name": "Agent",
+    "keywords": ["agent", "agents", "computer use", "tool use", "workflow", "automation"],
+    "default_importance": "medium"
+  },
+  {
+    "id": "multimodal",
+    "name": "多模态",
+    "keywords": ["image", "video", "audio", "voice", "vision", "multimodal", "speech"],
+    "default_importance": "medium"
+  },
+  {
+    "id": "open_source_model",
+    "name": "开源模型",
+    "keywords": ["open source", "open-source", "hugging face", "transformers", "weights", "checkpoint"],
+    "default_importance": "medium"
+  },
+  {
+    "id": "paper_research",
+    "name": "论文研究",
+    "keywords": ["arxiv", "paper", "research", "benchmark", "dataset", "training", "inference"],
+    "default_importance": "medium"
+  },
+  {
+    "id": "product_news",
+    "name": "产品动态",
+    "keywords": ["chatgpt", "claude", "workspace", "enterprise", "app", "product"],
+    "default_importance": "medium"
+  },
+  {
+    "id": "policy_regulation",
+    "name": "政策监管",
+    "keywords": ["policy", "regulation", "safety", "governance", "law", "security"],
+    "default_importance": "medium"
+  },
+  {
+    "id": "tool_update",
+    "name": "工具更新",
+    "keywords": ["tool", "cli", "library", "framework", "package", "release notes"],
+    "default_importance": "low"
+  },
+  {
+    "id": "other",
+    "name": "其他",
+    "keywords": [],
+    "default_importance": "low"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-chat",
+  "temperature": 0.2,
+  "max_tokens": 900,
+  "request_timeout_ms": 60000,
+  "summary_enabled": false,
+  "summary_max_items": 10,
+  "max_arxiv_top_items": 2,
+  "content_max_chars": 5000,
+  "deep_dive_categories": ["模型发布", "API更新", "Agent", "多模态", "开源模型", "论文研究", "产品动态"],
+  "arxiv_deep_dive_keywords": ["Agent", "RAG", "LLM", "Multimodal", "Reasoning", "Code", "Benchmark", "Memory", "Tool", "Workflow"]
+}

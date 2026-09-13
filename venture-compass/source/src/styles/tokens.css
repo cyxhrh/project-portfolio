@@ -1,0 +1,12 @@
+:root {
+  --vc-bg: #111719;
+  --vc-surface: #182123;
+  --vc-surface-muted: #202a2c;
+  --vc-text: #f1f5f3;
+  --vc-text-muted: #aeb9b6;
+  --vc-accent: #f1f5f3;
+  --vc-radius: 16px;
+  font-family: 'Noto Sans SC', 'Geist', system-ui, sans-serif;
+  background: var(--vc-bg);
+  color: var(--vc-text);
+}

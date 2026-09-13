@@ -1,0 +1,48 @@
+{
+  "name": "ai-intel-collector",
+  "version": "1.0.0",
+  "description": "Local AI industry first-party intel collector.",
+  "main": "index.js",
+  "scripts": {
+    "collect": "node src/collect.js",
+    "summarize": "node src/summarize.js",
+    "enrich:content": "node src/scripts/enrich-content.js",
+    "summarize:test": "node src/scripts/summarize-test.js",
+    "report:enhanced": "node src/report-enhanced.js",
+    "feishu:preview": "node src/scripts/feishu-preview.js",
+    "feishu:cli-check": "node src/scripts/feishu-cli-check.js",
+    "feishu:cli-preview": "node src/scripts/feishu-cli-check.js",
+    "feishu:sync": "node src/scripts/feishu-sync.js",
+    "feishu:cli-bitable-check": "node src/scripts/feishu-cli-bitable-check.js",
+    "feishu:cli-bitable-test": "node src/scripts/feishu-cli-bitable-test.js",
+    "feishu:api-dry-run": "node src/scripts/feishu-dry-run.js",
+    "feishu:api-test-sync": "node src/scripts/feishu-test-sync.js",
+    "feishu:dry-run": "node src/scripts/feishu-dry-run.js",
+    "feishu:test-sync": "node src/scripts/feishu-test-sync.js",
+    "ai:intel:daily-test": "node src/scripts/ai-intel-daily-test.js",
+    "ai:intel:auto": "node src/scripts/ai-intel-auto.js",
+    "ai:intel:auto:test": "node src/scripts/ai-intel-auto.js --mode=test",
+    "ai:intel:auto:prod-check": "node src/scripts/ai-intel-auto.js --mode=prod --check-only",
+    "desktop:dev": "electron desktop/main.js",
+    "desktop:build": "node desktop/build-check.js",
+    "desktop:shortcut": "powershell -ExecutionPolicy Bypass -File scripts/create-desktop-shortcut.ps1",
+    "task:status": "powershell -NoProfile -Command \"Get-ScheduledTask -TaskName 'AI Intel Collector Daily' | Select-Object TaskName,State,TaskPath | Format-List; $task = Get-ScheduledTask -TaskName 'AI Intel Collector Daily'; $task.Triggers | Select-Object Enabled,DaysInterval,StartBoundary | Format-List\"",
+    "task:enable": "powershell -NoProfile -Command \"Enable-ScheduledTask -TaskName 'AI Intel Collector Daily' | Out-Null; Get-ScheduledTask -TaskName 'AI Intel Collector Daily' | Select-Object TaskName,State | Format-List\"",
+    "task:disable": "powershell -NoProfile -Command \"Disable-ScheduledTask -TaskName 'AI Intel Collector Daily' | Out-Null; Get-ScheduledTask -TaskName 'AI Intel Collector Daily' | Select-Object TaskName,State | Format-List\"",
+    "sync:summary": "node src/scripts/sync-summary.js",
+    "test:sources": "node src/test-sources.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.4.2",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "electron": "^42.5.0"
+  }
+}

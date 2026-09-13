@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Intel Collector</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>AI Intel Collector</h1>
+          <p>本地 AI 一手情报控制台 · 历史状态只读预览（非本次运行）</p>
+        </div>
+        <button id="refreshBtn" class="secondary">刷新状态</button>
+      </header>
+
+      <section class="status-grid">
+        <div class="metric"><span>运行模式</span><strong id="runMode">-</strong></div>
+        <div class="metric"><span>飞书同步</span><strong id="feishuMode">-</strong></div>
+        <div class="metric"><span>上次运行</span><strong id="lastRunTime">-</strong></div>
+        <div class="metric"><span>运行结果</span><strong id="lastRunResult">-</strong></div>
+        <div class="metric"><span>今日情报</span><strong id="intelTotal">0</strong></div>
+        <div class="metric"><span>真实摘要</span><strong id="aiSummaryCount">0</strong></div>
+      </section>
+
+      <section class="panel run-panel">
+        <div>
+          <h2>一键运行</h2>
+          <p id="runHint">执行完整测试闭环，并同步到飞书测试文档和测试多维表。</p>
+        </div>
+        <button id="runBtn" class="primary">立即运行 AI 情报收集</button>
+      </section>
+
+      <section class="columns">
+        <div class="panel">
+          <h2>自动化</h2>
+          <label class="field">
+            <span>每日运行时间</span>
+            <input id="taskTime" type="time" value="21:30" />
+          </label>
+          <div class="button-row">
+            <button id="saveTaskBtn">保存自动化时间</button>
+            <button id="enableTaskBtn">开启每日自动运行</button>
+            <button id="disableTaskBtn">关闭每日自动运行</button>
+            <button id="taskStatusBtn">查看任务状态</button>
+          </div>
+          <pre id="taskOutput" class="output">等待操作。</pre>
+        </div>
+
+        <div class="panel">
+          <h2>快捷打开</h2>
+          <div class="button-row stacked">
+            <button id="openDailyBtn">打开飞书日报</button>
+            <button id="openBitableBtn">打开飞书多维表</button>
+            <button id="openLogsBtn">打开 logs 文件夹</button>
+            <button id="openProjectBtn">打开项目目录</button>
+          </div>
+          <p class="muted" id="linkHint">链接来自最近一次同步报告。</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="tabs">
+          <button class="tab active" data-tab="autoReport">auto_run_report</button>
+          <button class="tab" data-tab="summaryReport">daily_sync_summary</button>
+          <button class="tab" data-tab="latestLog">最新日志</button>
+          <button class="tab" data-tab="liveLog">本次运行输出</button>
+        </div>
+        <pre id="textViewer" class="viewer"></pre>
+      </section>
+    </main>
+    <script src="./preview-data.js"></script><script src="./renderer.js"></script>
+  </body>
+</html>

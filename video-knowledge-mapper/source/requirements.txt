@@ -1,0 +1,8 @@
+PySide6
+yt-dlp
+faster-whisper
+openai
+webvtt-py
+srt
+platformdirs
+pytest
